@@ -1,14 +1,21 @@
 {
   "imports": {
-    "@angular/animations": "https://ga.system.jspm.io/npm:@angular/animations@15.0.1/fesm2020/animations.mjs",
-    "@angular/common": "https://ga.system.jspm.io/npm:@angular/common@15.0.1/fesm2020/common.mjs",
-    "@angular/core": "https://ga.system.jspm.io/npm:@angular/core@15.0.1/fesm2020/core.mjs",
-    "@angular/forms": "https://ga.system.jspm.io/npm:@angular/forms@15.0.1/fesm2020/forms.mjs",
+    "@kaz/root-config": "http://localhost:9000/kaz-root-config.js",
+    "@kaz/navbar": "http://localhost:4003/main.js",
+    "@kaz/utility": "http://localhost:8080/kaz-utility.js",
+    "@kaz/products": "http://localhost:4001/main.js",
+    "@kaz/auth": "http://localhost:4002/main.js",
+    "@angular/animations": "https://cdn.jsdelivr.net/npm/@esm-bundle/angular__animations@15.0.2/es2015/ivy/angular-animations.min.js",
+    "@angular/common": "https://cdn.jsdelivr.net/npm/@esm-bundle/angular__common@15.0.2/es2015/ivy/angular-common.min.js",
+    "@angular/core": "https://cdn.jsdelivr.net/npm/@esm-bundle/angular__core@15.0.2/es2015/ivy/angular-core.min.js",
+    "@angular/forms": "https://cdn.jsdelivr.net/npm/@esm-bundle/angular__forms@15.0.2/es2015/ivy/angular-forms.min.js",
     "@angular/material": "https://ga.system.jspm.io/npm:@angular/material@15.0.0/fesm2020/material.mjs",
-    "@angular/platform-browser": "https://ga.system.jspm.io/npm:@angular/platform-browser@15.0.1/fesm2020/platform-browser.mjs",
-    "@angular/router": "https://ga.system.jspm.io/npm:@angular/router@15.0.1/fesm2020/router.mjs",
-    "rxjs": "https://ga.system.jspm.io/npm:rxjs@7.5.7/dist/esm5/index.js",
-    "rxjs/operators": "https://ga.system.jspm.io/npm:rxjs@7.5.7/dist/esm5/operators/index.js",
-    "single-spa": "https://ga.system.jspm.io/npm:single-spa@5.9.4/lib/esm/single-spa.min.js"
+    "@angular/platform-browser": "https://cdn.jsdelivr.net/npm/@esm-bundle/angular__platform-browser@15.0.2/es2015/ivy/angular-platform-browser.min.js",
+    "@angular/platform-browser-dynamic": "https://cdn.jsdelivr.net/npm/@esm-bundle/angular__platform-browser-dynamic@15.0.2/es2015/ivy/angular-platform-browser-dynamic.min.js",
+    "@angular/router": "https://cdn.jsdelivr.net/npm/@esm-bundle/angular__router@15.0.2/es2015/ivy/angular-router.min.js",
+    "@angular/compiler": "https://cdn.jsdelivr.net/npm/@esm-bundle/angular__compiler@15.0.2/es2015/ivy/angular-compiler.min.js",
+    "rxjs": "https://cdn.jsdelivr.net/npm/@esm-bundle/rxjs@7.5.7/esm/es2015/rxjs.min.js",
+    "rxjs/operators": "https://cdn.jsdelivr.net/npm/@esm-bundle/rxjs@7.5.7/esm/es2015/rxjs-operators.min.js",
+    "single-spa": "https://cdn.jsdelivr.net/npm/single-spa@5.9.1/lib/system/single-spa.min.js"
   }
 }
